@@ -9,6 +9,9 @@ void main() {
       MaterialApp(
         debugShowCheckedModeBanner: false,
         home: HomePage(),
+        theme: ThemeData(
+          fontFamily: 'jost'
+        ),
       )
   );
 }

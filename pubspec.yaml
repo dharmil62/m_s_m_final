@@ -25,6 +25,7 @@ dependencies:
     sdk: flutter
   simple_animations: ^1.3.3
   dashed_circle: ^0.0.1
+  custom_navigator: ^0.2.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -49,6 +50,7 @@ flutter:
   assets:
      - assets/background.png
      - assets/illustration.png
+     - assets/world.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -62,10 +64,18 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+     - family: jost
+       fonts:
+         - asset: assets/font/jost/Jost-Light.tff
+           weight: 300
+         - asset: assets/font/jost/Jost-Regular.tff
+           weight: 400
+         - asset: assets/font/jost/Jost-Medium.tff
+           weight: 500
+         - asset: assets/font/jost/Jost-SemiBold.tff
+           weight: 600
+         - asset: assets/font/jost/Jost-Bold.tff
+           weight: 700
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
