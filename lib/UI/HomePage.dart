@@ -57,7 +57,7 @@ class _MyPageState extends State<MyPage> with SingleTickerProviderStateMixin {
           )
         ],
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.grey,
 
       body: SingleChildScrollView(
         child: Column(
@@ -199,7 +199,7 @@ class _MyPageState extends State<MyPage> with SingleTickerProviderStateMixin {
                 SizedBox(
                   width: 25.0,
                 ),
-                Text('World of Music', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20,),),
+                Text('World of Music', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20, color: Colors.white),),
                 SizedBox(
                   width: 30,
                 ),
@@ -272,7 +272,7 @@ class _MyPageState extends State<MyPage> with SingleTickerProviderStateMixin {
                 SizedBox(
                   width: 25.0,
                 ),
-                Text('#Trending Playlists', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20,),),
+                Text('#Trending Playlists', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20, color: Colors.white),),
                 SizedBox(
                   width: 30,
                 ),
@@ -424,7 +424,7 @@ class _MyPageState extends State<MyPage> with SingleTickerProviderStateMixin {
                 SizedBox(
                   width: 25.0,
                 ),
-                Text('World of Music', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20,),),
+                Text('World of Music', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20, color: Colors.white),),
                 SizedBox(
                   width: 30,
                 ),
@@ -497,7 +497,7 @@ class _MyPageState extends State<MyPage> with SingleTickerProviderStateMixin {
                 SizedBox(
                   width: 25.0,
                 ),
-                Text('#Trending Playlists', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20,),),
+                Text('#Trending Playlists', style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20, color: Colors.white),),
                 SizedBox(
                   width: 30,
                 ),
@@ -645,15 +645,16 @@ class _MyPageState extends State<MyPage> with SingleTickerProviderStateMixin {
         ),
       ),
     bottomNavigationBar: new Container(
-    color: Colors.white,
     height: 50.0,
     alignment: Alignment.center,
     child: new BottomAppBar(
+      color: Colors.black,
     child: new Row(
     // alignment: MainAxisAlignment.spaceAround,
     mainAxisAlignment: MainAxisAlignment.spaceAround,
     children: <Widget>[
     new IconButton(
+      color:Colors.white,
     icon: Icon(
     Icons.home,
     ),
@@ -662,6 +663,7 @@ class _MyPageState extends State<MyPage> with SingleTickerProviderStateMixin {
     },
     ),
     new IconButton(
+      color:Colors.white,
     icon: Icon(
     Icons.phonelink_ring,
     ),
@@ -670,6 +672,7 @@ class _MyPageState extends State<MyPage> with SingleTickerProviderStateMixin {
     },
     ),
     new IconButton(
+      color:Colors.white,
     icon: Icon(
     Icons.rss_feed,
     ),
@@ -678,6 +681,7 @@ class _MyPageState extends State<MyPage> with SingleTickerProviderStateMixin {
     },
     ),
     new IconButton(
+      color:Colors.white,
     icon: Icon(
     Icons.person_outline,
     ),
